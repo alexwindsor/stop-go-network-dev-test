@@ -1,0 +1,17 @@
+{
+    "name": "alex/stop-go-network-dev-test",
+    "require": {
+        "phpunit/phpunit": "^10.0",
+      "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
